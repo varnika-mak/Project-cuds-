@@ -6,6 +6,8 @@ const main = require("./Db/Database")
 const routepost =require("./controllers/route")
 const port =process.env.PORT || 3000
 // const image =require("./controllers/image")
+// const image =require("./controllers/image")
+
 const path = require("path");
 
 app.use("/Media", express.static(path.join(__dirname, "Media")));
